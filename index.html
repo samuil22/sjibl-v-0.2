@@ -8,10 +8,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
 
   	<link rel="stylesheet" type="text/css" href="css/style.css">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/bootstrap.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css">
+  	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/animate.min.css">
 	<!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> groupslider -->
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet"/>
@@ -735,8 +735,11 @@
     </div>
   </div>
 </div>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <script src="js/jquery.min.js"></script>
+ <script src="js/popper.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/multislider.js"></script> <!-- bottom slider -->
 <script>
 	/*$(document).ready(function() {
@@ -744,6 +747,9 @@
 		$("#menuImg").slideToggle(300);
 	})
 })*/
+ new WOW().init();
+
+ 
 $('#basicSlider').multislider({
 			continuous: true,
 			duration: 2000
