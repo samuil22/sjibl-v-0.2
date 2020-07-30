@@ -1,0 +1,277 @@
+.card_overlay{
+    height: 100%;
+    background: transparent linear-gradient(260deg, #0099FF00 0%, #00234BBF 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    position: absolute;
+}
+.card_caption{
+    right: 50%!important;
+    top: 30%;
+    text-align: left!important;
+}
+.carousel-control-prev:hover{
+    background: linear-gradient(to right, #00234BBF , #0099FF00);
+} 
+.carousel-control-next:hover{
+    background: linear-gradient(to right, #0099FF00 , #00234BBF);
+}
+/* SHARIAH area */
+.card_shariah h1{
+    color: #015DAE;
+    font-size: 3rem;
+}
+.card_shariah p{
+    font-weight: 300;
+    font-size: 22px;
+}
+.small_bar {
+    background: #015DAE;
+    height: 7px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+/* partner area */
+.card_partner h1{
+    font-weight: 400;
+    font-family: lato;
+    font-size: 2rem;
+    color: #015DAE;
+}
+.image_hover{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0 !important;
+    color:#fff;
+    overflow:hidden;
+    cursor: pointer;
+}
+.hover_one{
+    width: 33.33%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(to bottom, #0099FF80, #00234B99 ), url('../img/card/MasterCard-Prepaid-Card1.png');
+    background-blend-mode: normal;
+}
+.hover_one:hover {
+    width: 100%;
+    position: absolute;
+}
+.hover_two{
+    width: 33.33%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(to bottom, #0099FF80, #00234B99 ), url('../img/card/gettyimages.png');
+    background-blend-mode: normal;
+}
+.hover_two:hover{
+    width: 100%;
+    position: absolute;
+    
+}
+.hover_three{
+    width: 33.33%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(to bottom, #0099FF80, #00234B99 ), url('../img/card/credit-card.png');
+    background-blend-mode: normal;    
+}
+.hover_three:hover{
+    width: 100%;
+    position: absolute;
+}
+.text_center_hover {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.partner_h1{
+    font-weight: 700!important;
+    color:#fff!important;
+}
+.cardBt{
+    color:#fff !important;
+    background-color: #E18E26 !important;
+}
+
+/* form card area */
+.formCard{
+    width: 60%;
+    margin: 0 auto;
+}
+/* card information area */
+.card_Infor h1{
+    font-size: 3rem;
+}
+.card_Infor p{
+    padding-top: 20px;
+    color: #0C68A9;
+    font-weight: bold;
+}
+.inforIcon {
+    height: 157px;
+    width: 157px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    border-radius: 50%;
+}
+.inforIcon i {
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 37% 35%;
+    color: #0C68A9;
+}
+/* ------------------------credit card page-------------------------------------- */
+.apply_btn{
+    padding: 7px 65px !important;
+}
+.credit_box {
+    height: 200px;
+    padding: 43px 0;
+    color: #015DAE;
+    box-shadow: 0px 3px 3px #00000029;
+}
+.credit_box1 {
+    background: #F2F2F2;
+}
+.credit_box2 {
+    background: #FCFCFC;
+}
+.credit_box i{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+/* flip card area */
+.card_credit_flip h1{
+    font-family: lato;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 215px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 33px!important;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #FBFBFB;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+
+  .btnOne {
+    padding: 10px 46px !important;
+    margin: 3px;
+    border: 1px solid #707070 !important;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.btnOne:hover{
+    background-color: #E18E26;
+    color:#fff !important;
+    border: none !important;
+}
+/* emi area start */
+.eMi {
+    position: relative;
+    width: 100%;
+    height: 255px;
+  }
+  .emi_image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlayemi {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    background-color: #0b6792e0;
+    overflow: hidden;
+    width: 100%;
+    height: 43%;
+    transition: .5s ease;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .eMi:hover .overlayemi {
+    height: 100%;
+    border-radius:  0px;
+  }
+  
+  .emitext {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* document area */
+.docu{
+    position: relative;
+    height: 320px;
+    background-image: url(../img/card/docu1.png);
+    background-position: center;
+    background-size: cover;
+}
+.docu2{
+    background-image: url(../img/card/docu2.png);
+}
+.docutext {
+    position: absolute;
+    bottom: 0;
+    padding:18px;
+    width: 100%;
+    background: #0c68a9ad;
+    color: #fff;
+}
+.docutext p{
+    font-size: 25px;
+    font-family: lato;
+}
+ /* Vertical Tabs */
+ .docuText {
+    position: absolute;
+    background: #0c68a9cc;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
