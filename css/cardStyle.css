@@ -275,3 +275,38 @@
     width: 100%;
     padding: 20px;
 }
+
+.docu_h1{
+    background-color: #0C68A9;
+}
+.docu_h1 h1{
+    font-weight: 500;
+    font-family: lato;
+    color: #fff;
+}
+.docu_ultwo{
+    background-color:#E4F4FF ;
+}
+.docu_ulone{
+    background-color:#F6F6F6 ;
+}
+.docuone_h1{
+    background-color: #D6D6D6;
+    
+}
+.docuone_h1 h1{
+    color:#0C68A9;
+    
+}
+.docu_ul li{
+    list-style-image: url('../img/list-style5.png');
+    list-style-position: outside;
+}
+/* download page */
+.downL{
+    height: 100%;
+}
+.downText{
+    left:37%;
+    text-align: left;
+}

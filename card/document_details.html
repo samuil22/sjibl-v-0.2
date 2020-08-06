@@ -332,42 +332,112 @@
         </div>
         <div class="d-flex pt-3" style="margin: 0 auto;"> 
             <a href="documents.html"><button type="button" class="btn btn-lg btnOne">Documents</button></a>
-            <button type="button" class="btn btn-lg btnOne">Download</button>
+            <a href="download.html"><button type="button" class="btn btn-lg btnOne">Download</button></a>
             <button type="button" class="btn btn-lg btnOne">Security Tips</button>
         </div>
     </div>
 </div>
 
 <!-- document details area -->
-<section>
+<section id="docu_details">
     <div class="container p-5">
        <div class="row">
 		   <div class="col-md-3">
-			   <ul class="nav nav-tabs flex-column">
-					<li style="position: relative;" ><a href="#heading-one" class="bg-primary text-white active" data-toggle="tab">
-						<img src="../img/card/docu1.png" class="img-fluid" alt="">	
-						<div class="docuText">
-							<p>salaried
-								person
-							</p>
-						</div>
-					</a></li>
-					<li style="position: relative;" ><a href="#heading-two" class=" text-white my-1" data-toggle="tab">
-						<img src="../img/card/docu2.png" class="img-fluid" alt="">	
-						<div class="docuText">
-							<p>salaried
-								person
-							</p>
-					</a></li>
+			   <ul class="nav nav-tabs flex-column docutab">
+					<li class="nav-item" style="position: relative;" >
+						<a href="#heading-one" class="bg-primary text-white active" data-toggle="tab">
+							<div class="docu_image">
+									<img src="../img/card/docu1.png" class="img-fluid" alt="">
+							</div>
+							
+							<div class="docuText">
+								<p>Business Person
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item " style="position: relative;" >
+						<a href="#heading-two" class="text-white my-1" data-toggle="tab">
+							<div class="docu_image">
+								<img src="../img/card/docu2.png" class="img-fluid" alt="">	
+							</div>
+							
+							<div class="docuText">
+								<p>salaried
+									person
+								</p>
+							</div>
+						</a>
+					</li>
 			   </ul>
 		   </div>
+		   
 		   <div class="col-md-9">
 			   <div class="tab-content flex-center">
-				   <div class="tab-pen fade show active" id="heading-one">
-					   <p class="m-5">this is heading one man</p>
+				   <div class="tab-pane show fade active" id="heading-one">
+					   <div class="row">
+							<div class="col-md-6 pr-0">
+								<div class="d-flex flex-column justify-content-between" style="height: 100%;background: #F6F6F6;">
+									<ul class="docu_ul docu_ulone p-5">
+										<li> E-TIN Certificate </li>
+										<li> PP sized Photograph (One Copy)</li>
+										<li> National ID</li>
+										<li> Valid Trade License</li>
+										<li> Bank Statement (last One Year)</li>
+									</ul>
+									<div class=" docu_h1 docuone_h1 p-5 text-center">
+										<h1>GENERAL</h1>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 pl-0">
+								<div class="docu_h1 p-5 text-center">
+									<h1>SPECIFIC</h1>
+								</div>
+								
+								<ul class="docu_ul docu_ultwo p-5 m-0">
+									<li> Copy of Passport (In case of Dual Card)     </li>
+									<li> Partnership Deed (In case of Partnership Business)</li>
+									<li> Memorandum and Article of Association (In case of Limited Company)</li>
+									<li> Certificate of Incorporation (In case of Limited Company)</li>
+									<li> Proof of own residence (if any)</li>
+									<li> Export Performance certified by Bank (for ERQ Card)</li>
+									<li> Bank statement of ERQ A/C (In case of ERQ Card) </li>
+									<li> Lien Confirmation letter (In case of against FDR,MSD, RFCD, ERQ or any other A/C)</li>
+									
+								</ul>
+							</div>
+					   </div>
 				   </div>
-				   <div class="tab-pen fade   " id="heading-two">
-					   <p class="m-5">this is heading two man</p>
+				   <div class="tab-pane fade " id="heading-two">
+					<div class="row">
+						<div class="col-md-6 pr-0">
+							<div class="d-flex flex-column justify-content-between" style="height: 100%;background: #F6F6F6;">
+								<ul class="docu_ul docu_ulone p-5">
+									<li> E-TIN Certificate </li>
+									<li> PP sized Photograph (One Copy)</li>
+									<li> National ID</li>
+									<li> Valid Trade License</li>
+									<li> Bank Statement (last One Year)</li>
+								</ul>
+								<div class=" docu_h1 docuone_h1 p-5 text-center">
+									<h1>GENERAL</h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 pl-0">
+							<div class="d-flex flex-column justify-content-between" style="height: 100%;background: #E4F4FF;">
+								<div class="docu_h1 p-5 text-center">
+									<h1>SPECIFIC</h1>
+								</div>
+								
+								<ul class="docu_ul docu_ultwo p-5 m-0">
+									<li> Proof of own residence (if any)</li>
+									<li> Lien Confirmation letter (In case of against FDR,MSD, RFCD, ERQ or any other A/C)</li>
+								</ul>
+							</div>
+						</div>
+				   </div>
 				   </div>
 			   </div>
 		   </div>
