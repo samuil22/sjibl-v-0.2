@@ -69,6 +69,7 @@ h1,h2,h3,h4,h5,h6{
 a{
   font-family: 'Lato', sans-serif;
 }
+
 .h1_color{
   color: #015DAE;
 }
@@ -163,26 +164,18 @@ a{
   color: #034275;
 }
 .banking {
-
     padding: 0px 99px;
-
 }
 .banking {
   background: url('../img/images-01.png');
   background-size: cover;
-  ba
 }
 .banking h1 {
-  
-    padding-top: 41px;
-   
+    padding-top: 41px; 
     padding-left: 49px;
-
 }
 .banking h3 {
-   
     padding: 6px 48px;
-
 }
 .banking li{
   padding:2px 2px;
@@ -213,13 +206,9 @@ a{
 }
 /*top middle logo*/
 /*top right S*/
-.lo_re{
-	
-}
 .search_pac{
  padding: 30px 14px;
 }
-
 .top_log_reg li{
 	list-style: none;
 	float: left;
@@ -264,9 +253,6 @@ a{
 .search_pac i{
 	font-size: 14px;
 }
-.top_log_reg {
-
-}
 /*top right E*/
 .firstNav_dropdown{
   background: green;
@@ -275,7 +261,6 @@ a{
 }
 .firstNav_dropdown a{
     font-weight: bold;
-    
 }
 .firstNav_dropdown a:hover{
   background-color: #fff !important;

@@ -193,9 +193,120 @@
     transform: rotateY(180deg);
     
   }
+
   .btnOne {
     padding: 10px 46px !important;
     margin: 3px;
     border: 1px solid #707070 !important;
     box-shadow: 0px 3px 6px #00000029;
+}
+.btnOne:hover{
+    background-color: #E18E26;
+    color:#fff !important;
+    border: none !important;
+}
+/* emi area start */
+.eMi {
+    position: relative;
+    width: 100%;
+    height: 255px;
+  }
+  .emi_image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlayemi {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    background-color: #0b6792e0;
+    overflow: hidden;
+    width: 100%;
+    height: 43%;
+    transition: .5s ease;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .eMi:hover .overlayemi {
+    height: 100%;
+    border-radius:  0px;
+  }
+  
+  .emitext {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* document area */
+.docu{
+    position: relative;
+    height: 320px;
+    background-image: url(../img/card/docu1.png);
+    background-position: center;
+    background-size: cover;
+}
+.docu2{
+    background-image: url(../img/card/docu2.png);
+}
+.docutext {
+    position: absolute;
+    bottom: 0;
+    padding:18px;
+    width: 100%;
+    background: #0c68a9ad;
+    color: #fff;
+}
+.docutext p{
+    font-size: 25px;
+    font-family: lato;
+}
+ /* Vertical Tabs */
+ .docuText {
+    position: absolute;
+    background: #0c68a9cc;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.docu_h1{
+    background-color: #0C68A9;
+}
+.docu_h1 h1{
+    font-weight: 500;
+    font-family: lato;
+    color: #fff;
+}
+.docu_ultwo{
+    background-color:#E4F4FF ;
+}
+.docu_ulone{
+    background-color:#F6F6F6 ;
+}
+.docuone_h1{
+    background-color: #D6D6D6;
+    
+}
+.docuone_h1 h1{
+    color:#0C68A9;
+    
+}
+.docu_ul li{
+    list-style-image: url('../img/list-style5.png');
+    list-style-position: outside;
+}
+/* download page */
+.downL{
+    height: 100%;
+}
+.downText{
+    left:37%;
+    text-align: left;
 }

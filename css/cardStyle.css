@@ -143,8 +143,8 @@
 .credit_box2 {
     background: #FCFCFC;
 }
-.credit_box i{
-    font-size: 45px;
+.credit_box img{
+    height: 50px;
     padding-bottom: 10px;
 }
 /* flip card area */
@@ -309,4 +309,32 @@
 .downText{
     left:37%;
     text-align: left;
+}
+/* security page  */
+.security_table tr , td{
+    border: 0 !important;
+    vertical-align: middle !important;
+}
+.securityTd_img {
+    background: #015DAE;
+    width: 188px;
+    height: 133px;
+    text-align: center;
+}
+.securityTd_p{
+    box-shadow: 0px 3px 6px #00000029;
+}
+.bg_sec_table{
+    background-color: #F9F9F9;
+    text-align:right;
+  }
+/* core feature area */
+.point_card {
+    text-align: center;
+    border: 10px solid #85B3D4 !important;
+    padding: 50px;
+    margin: 0px 10px;
+}
+.point_card img {
+    height: 100px;
 }
