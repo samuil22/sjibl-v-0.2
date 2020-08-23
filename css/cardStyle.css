@@ -121,11 +121,10 @@
     background: #f5f5f5;
     border-radius: 50%;
 }
-.inforIcon i {
-    margin: 0 auto;
-    font-size: 40px;
-    padding: 37% 35%;
-    color: #0C68A9;
+.inforIcon img {
+    padding: 29px;
+    margin: 17px auto;
+    width: 115px;
 }
 /* ------------------------credit card page-------------------------------------- */
 .apply_btn{
@@ -337,4 +336,117 @@
 }
 .point_card img {
     height: 100px;
+}
+/* debit card page */
+#debitLocation h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.location_btn h3{
+    font-weight: 300;
+    font-family: lato;
+}
+.location_btn span{
+    font-weight: 500;
+}
+.map_locationBtn {
+    border: 2px solid #E18E26 !important;
+    width: 150px;
+    margin: 5px;
+}
+.map_locationBtn:hover,
+.map_locationBtn:focus{
+    background-color: #E18E26;
+    color: #fff !important;
+}
+.locationBtn_all{
+    width:310px;
+    background-color: #E18E26 !important;
+    color: #fff !important;
+}
+.locationBtn_all img{
+    width: 25px;
+    float: right;
+}
+/* atm near me area */
+.atm_near{
+    background:#FAFAFA;
+    border:2px solid #f0f0f0;
+
+}
+.atm_near h5 {
+    color:#AC6C6E;
+    font-family: lato;
+}
+.atm_near a {
+    color:#000;
+}
+.atm_near a:hover {
+    color:#000;
+}
+.atm_near p {
+    margin: 0;
+    color: #777777;
+}
+.atm_near i {
+    font-size: 45px;
+    color: #2472D8;
+}
+.atm_arrow img {
+    margin: 3px;
+    background: #EEEEEE;
+    border-radius: 20%;
+}
+.debit_table table{
+    background: #0C68A9;
+    color:#fff;
+}
+.debit_table .ta_border{
+    border: 1px solid #dee2e6 !important;
+}
+.otherUs_color{
+    background: #043E6C;
+}
+.dib_link{
+    color: #D9D9D9;
+    font-weight: bolder;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.dib_link.active {
+    background: #E18E26!important;
+    color: #fff !important;
+    
+}
+/* fees changes */
+.fe_border{
+    border: 5px solid #fff !important;
+}
+.bg_table_color{
+    background: #015DAE;
+    color: #fff;
+}
+/* debit card feature area */
+.Card_freture {
+    position: relative;
+    display:block;
+    border-bottom:1px solid #E18E26 !important;
+}
+.Card_freture .plus_Freature{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: #E18E26;
+}
+.Card_freture button{
+    color:#000;
+}
+.Card_freture button:hover{
+    color:#000;
+}
+.card_details_border{
+    border: 1px solid #E18E26 !important;
+    border-left:0 !important;
+    border-right:0 !important;
+    border-radius: 0 !important;
 }

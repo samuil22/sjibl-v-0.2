@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+</head>
+<body>
+    <section id="debitLocation">
+        <div class="container">
+            <h1>ATM LOCATIONS</h1>
+            <div class="row">
+                <img id="img_map" src="1.png" alt="">
+                <div class="">
+                    <button onclick="dhaka()" id="dhaka" class="btn btn-primary">dhaka</button>
+                    <button onclick="barishal()" id="barishal" class="btn btn-primary">barishal</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var mapImg = document.getElementById("img_map");
+        function dhaka(){
+            mapImg.src='1.png';
+        }
+        function barishal(){
+            mapImg.src='2.jpg';
+        }
+
+    </script>
+</body>
+</html>
