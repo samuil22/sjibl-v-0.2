@@ -450,3 +450,64 @@
     border-right:0 !important;
     border-radius: 0 !important;
 }
+/* internet banking accesibility guidlines */
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-gap: 20px;
+}
+.guidOne{
+    width: 300px;
+}
+.guidOne img{
+    width: 63px;
+    padding-top: 6px;
+    padding-right: 18px;
+}
+.guidOne h5{
+    color: #015DAE;
+    padding-top: 10px;
+}
+
+.guidThree{
+    text-align: center;
+}
+.guidThree img{
+    width: 430px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+/* tools and assistance area */
+#tools{
+    background-image: url(../img/card/internet/computer.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#tools h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+.tool {
+    background: #ccc;
+    margin: 0px 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 17px;
+    opacity: 0.5;
+}
+.tool img {
+    width: 85px;
+    height: 84px;
+}
+.tool p{
+    padding-top: 10px;
+    color: #015DAE;
+}
