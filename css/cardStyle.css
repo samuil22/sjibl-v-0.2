@@ -511,3 +511,14 @@
     padding-top: 10px;
     color: #015DAE;
 }
+/* credit card apply modal */
+.credit_app{
+    max-width: 850px !important;
+}
+.creText_modal{
+    background-color:#015DAE;
+    color:#fff;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .cre_modal {
+    background-color: #E18E26 !important;
+}

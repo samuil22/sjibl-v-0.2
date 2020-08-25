@@ -189,7 +189,7 @@
                 <h1>CREDIT CARD</h1>
                 <h5>Shariah Based Cards</h5>
                 <p>Shahjalal Islami Bank has introduced Shariah Based Cards for helping the customers with the convenient transactions.</p>
-                <button type="button" class="btn btn-lg cardBt apply_btn">Apply now</button>
+                <button type="button" class="btn btn-lg cardBt apply_btn" data-toggle="modal" data-target="#credit_modal">Apply now</button>
             </div>
         </div>
         <div class="carousel-item ">
@@ -529,6 +529,99 @@
     </div>
   </div>
 </div>
+<!-- credit card modal -->
+<!-- Modal -->
+<div class="modal fade" id="credit_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog credit_app" role="document">
+	  <div class="modal-content">
+
+			<div class="row">
+				<div class="col-md-5 creText_modal pt-5 pr-3">
+					<div>
+						<h3>WHY SHOULD APPLY
+						FOR OUR CARD</h3>
+						<h6>SHARIAH BASED DEBIT CARD Core Features</h6>
+						<ul class="ml-4">
+							<li>EMV Complied-Chip based Secured Debit Card.</li>
+							<li>Cash withdrawal Facility.</li>
+							<li>Purchase Goods or Services from any POS that
+							contain VISA Logo.
+							</li>
+							<li></li>
+						
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="col-md-7">
+					<div class="bg-white rounded-lg p-5">
+					<!-- Credit card form tabs -->
+					<ul role="tablist" class="nav bg-light nav-pills  nav-fill mb-3">
+						<li class="nav-item">
+							<a data-toggle="pill" href="#nav-tab-card" class="nav-link cre_modal active ">
+							APPLY
+						</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="pill" href="#nav-tab-paypal" class="nav-link ">
+							REPLACE
+						</a>
+						</li>
+					</ul>
+					<!-- End -->
+					<!-- Credit card form content -->
+					<div class="tab-content">
+			
+						<!-- credit card info-->
+						<div id="nav-tab-card" class="tab-pane fade show active">
+						<form role="form">
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<select class="custom-select" id="inputGroupSelect01">
+										<option selected>Title</option>
+										<option value="1">Mr.</option>
+										<option value="2">Ms.</option>
+										<option value="3">Three</option>
+									  </select>
+								</div>
+								<input type="text" class="form-control" placeholder="Your Name"aria-label="Text input with dropdown button">
+							  </div>
+							<div class="form-group">
+								<input type="text" name="username" placeholder="Your Address" required class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="text" name="username" placeholder="Your Mobile Number" required class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" placeholder="Your Email" required class="form-control">
+							</div>
+							<button type="button" class="subscribe btn btn-primary shadow-sm">Apply </button>
+						</form>
+						</div>
+						<!-- End -->
+			
+						<!-- Paypal info -->
+						<div id="nav-tab-paypal" class="tab-pane fade">
+							<p>Paypal is easiest way to pay online</p>
+							<p>
+								<button type="button" class="btn btn-primary rounded-pill"><i class="fa fa-paypal mr-2"></i> Log into my Paypal</button>
+							</p>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+						<!-- End -->
+					</div>
+					<!-- End -->
+			
+					</div>
+					<!-- /// -->
+				</div>
+			</div>
+
+	  </div>
+	</div>
+  </div>
  <script src="../js/jquery.min.js"></script>
  <script src="../js/popper.min.js"></script>
 
