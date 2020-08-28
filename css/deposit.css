@@ -1,0 +1,33 @@
+.p_deposit{
+    font-size: 20px;
+}
+.depo_img{
+    position: relative;
+    
+}
+.depo_text{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    -webkit-box-shadow: inset 6px -74px 37px -21px rgba(12,104,169,1);
+    -moz-box-shadow: inset 6px -74px 37px -21px rgba(12,104,169,1);
+    box-shadow: inset 6px -74px 37px -21px rgba(12,104,169,1);
+    width: 100%;
+}
+.depo_text p{
+    background-color: #E18E26;
+    color: #fff;
+    padding: 3px 45px;
+    width: 50%;
+}
+.depo_text a{
+    margin: 0 30px;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #fff;
+    padding: 15px;
+}
+.depo_text a:hover{
+    color:#fff;
+}
