@@ -1,8 +1,15 @@
+.deposit_slid{
+    position: relative;
+}
 .p_deposit{
     font-size: 20px;
 }
 .depo_img{
     position: relative;
+    
+}
+.depo_img img{
+    width:100%;
     
 }
 .depo_text{
@@ -30,4 +37,56 @@
 }
 .depo_text a:hover{
     color:#fff;
+}
+/* help area  */
+
+#deposit_help{
+    background-image: url('../img/deposit/1.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#deposit_help h2{
+    color: #fff;
+}
+.help {
+    background: #ccc;
+    text-align: center;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    padding: 17px 7px;
+    border-radius: 10px;
+}
+.help p{
+    color: #0C68A9;
+}
+.help button {
+    padding: 14px 30px;
+}
+/* feature product area  */
+.depoProtext{
+    color: #fff;
+    padding: 18px;
+}
+.depoProtext h3{
+    font-family: lato;
+}
+.depo_prod{
+    height: 38%;
+}
+.depoProbutton {
+    background: #fff;
+    border: 1px solid orange;
+    border-radius: 0px 0 25px 25px;
+}
+.depoBtn{
+    border-radius: 0px 0px 25px !important;
+    padding: 19px 40px !important;
+}
+.depoProbutton img{
+    height: 35px;
+}
+.depoProtext a{
+    color: #fff;
+    text-decoration: underline;
 }
