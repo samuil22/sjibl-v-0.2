@@ -69,9 +69,20 @@ h1,h2,h3,h4,h5,h6{
 a{
   font-family: 'Lato', sans-serif;
 }
-
+.p_gray{
+  color: #707070;
+}
+.a14_gray{
+  color: #707070;
+  font-size: 14px;
+  text-decoration: underline;
+}
 .h1_color{
   color: #015DAE;
+  font-size: 3rem;
+}
+.p22{
+  font-size: 22px;
 }
 .padding0{
 	padding: 0 !important;

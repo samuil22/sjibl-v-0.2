@@ -76,7 +76,7 @@
 }
 .depoProbutton {
     background: #fff;
-    border: 1px solid orange;
+    border: 1px solid #E18E26;
     border-radius: 0px 0 25px 25px;
 }
 .depoBtn{
@@ -89,4 +89,62 @@
 .depoProtext a{
     color: #fff;
     text-decoration: underline;
+}
+.viewAll_6{
+    background: #F6F6F6;
+}
+.view_style{
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+.view_style p{
+    float: left;
+    margin: 6px;
+    font-weight: 600;
+    color: #000;
+}
+.view_style img{
+    height: 40px;
+    padding: 5px;
+}
+.depolistbutton{
+    background: #fff;
+    border: 1px solid #E18E26;
+}
+.depolistbutton img{
+    height: 40px;
+    padding: 3px 10px;
+}
+.depoviewBtn{
+    padding: 19px 40px !important;
+    border-radius: 0 !important;
+}
+/* make appionment page  */
+.makeAppbtn {
+    border: 2px solid #E18E26 !important;
+    background: #fff!important;
+    color: #E18E26!important;
+}
+
+/* Account selection tool */
+.breadcrumb{
+    background:#fff !important;
+}
+.breadcrumb-item a{
+    color: #E18E26;
+}
+/* deposit system */
+.system_li li {
+    list-style-image: url(../img/list-style5.png);
+    list-style-position: outside;
+    color: #0C68A9;
+}
+.system_h4{
+    color: #043E6C;
+    font-family: lato;
+}
+/* find out slider  */
+.find_pre_next:hover{
+    background: none !important;
 }
